@@ -16,7 +16,7 @@ const ActivityDetails: React.FC<IProps> = ({activity, setEditMode, setSelectedAc
         <Card.Meta>
           <span>{activity.date}</span>
         </Card.Meta>
-        <Card.Description>Description</Card.Description>
+        <Card.Description>{activity.description}</Card.Description>
       </Card.Content>
       <Card.Content extra>
         <Button.Group widths={2}>
