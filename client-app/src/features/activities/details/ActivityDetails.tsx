@@ -5,7 +5,7 @@ import ActivityStore from "../../../stores/activityStore";
 
 const ActivityDetails: React.FC = () => {
   const activityStore = useContext(ActivityStore);
-  const { selectedActivity: activity, openEditForm, cancelSelectedActivity } = activityStore;
+  const { activity: activity, openEditForm, cancelSelectedActivity } = activityStore;
   return (
     <Card fluid>
       <Image
